@@ -16,7 +16,14 @@ This is a production-ready todo application featuring:
 
 ## 🚀 Quick Start (5 Minutes)
 
-### 1. Set Up Environment Variables
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/CHARAN-SIVA-KUMAR/todo-full-stack-web-application.git
+cd todo-full-stack-web-application
+```
+
+### 2. Set Up Environment Variables
 
 Create `.env` files with the **SAME SECRET KEY** in both:
 
@@ -35,7 +42,7 @@ DATABASE_URL=postgresql://postgres:password@localhost:5432/todo_db
 
 ⚠️ **CRITICAL**: The `BETTER_AUTH_SECRET` must be **identical** in both files!
 
-### 2. Set Up Database
+### 3. Set Up Database
 
 ```bash
 # Create PostgreSQL database
@@ -51,7 +58,7 @@ npm install
 npx better-auth migrate
 ```
 
-### 3. Start Services
+### 4. Start Services
 
 ```bash
 # Terminal 1 - Backend
@@ -63,7 +70,7 @@ cd frontend
 npm run dev
 ```
 
-### 4. Access the Application
+### 5. Access the Application
 
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
